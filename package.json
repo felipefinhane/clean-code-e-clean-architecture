@@ -1,0 +1,21 @@
+{
+  "name": "clean-code-e-clean-architecture",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "coverage": "tsc && jest ./dist/ --coverage",
+    "test": "tsc && jest ./dist/",
+    "tsc:init": "tsc --init",
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.5.5"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.4.0",
+    "jest": "^27.5.1"
+  }
+}
