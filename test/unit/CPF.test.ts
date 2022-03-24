@@ -1,4 +1,4 @@
-import CPF from "./../src/CPF";
+import CPF from "../../src/domain/entity/CPF";
 
 test("CPF Válido", function () {
     const cpf = new CPF("041.207.010-34");
